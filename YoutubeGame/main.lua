@@ -14,6 +14,7 @@
 
 local physics =  require("physics")
 physics.start()
+physics.setGravity()
 
 local background = display.newImage("bg.png",400,300)
 
